@@ -114,23 +114,7 @@ int main(void) {
 			cardNum[j] = Default[j];
 
 		}
-		//srand(time(NULL));
-		//for (int i = 0; i < 8; i++) {						//순서대로 됐으니까 랜덤으로 
-		//	
-		//	r2 = rand() % 8;
-		//	temp2 = Default2[i];
-
-		//	Default2[i] = Default2[r2];
-		//	Default2[r2] = temp2;
-		//	Default2.reverse();
-		//}
-		//for (int j = 0; j < 8; j++) {						//arr[i] == cardNum[i] == Default[j]
-		//
-		//	cardNum[j] = Default2[j];
-		//}
-
-	// arr[i]==cardNum[i]니까 cardNum[i]값을 섞으면 출력 x => arr[i]를 랜덤으로 섞고 cardNum[i]를 섞어야함
-		//만약 
+		
 
 
 		if (arr[i] == cardNum[i]) {
@@ -150,15 +134,7 @@ int main(void) {
 		scanf_s("%d %d", &card1, &card2);
 
 
-		//for (int i = 0; i < 30; i++) {														//중복입력 무효
-		//	for (int j = 1; j < 30; j++) {
-		//		if (duplicate1[i] == duplicate1[j]) {
-		//			chance++;
-		//			true1--;
-		//			printf(" 이미 중복된 카드 번호입니다.\n 시도횟수 : %d \n\n 정답횟수 : %d\n\n", chance,true1);
-		//		}
-		//	}
-		//}
+		
 
 		if (arr[card1] == cardNum[card2]) {					//정답
 			printf("정답이에요~~~!\n\n");
@@ -173,14 +149,7 @@ int main(void) {
 			printf("시도 횟수 : %d\n정답 횟수 : %d\n\n", chance, true1);
 		}
 
-		/*if (true1==card1 || true2==card2)
-		{
-			printf("이미 맞춘 카드 번호입니다!\n\n\n 카드번호를 다시 입력해주세요. : ");
-			scanf_s("%d %d", &card1, &card2);
-		}
-		if (true2 == 8) {
-			break;
-		}*/
+		
 	}
 	printf(" 게임이 끝났습니다!");
 }

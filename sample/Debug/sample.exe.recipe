@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>C:\Users\user\source\repos\sample\Debug\sample.exe</FullPath>
+      <FullPath>C:\GitTest\SimpleGame\Debug\sample.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />
